@@ -14,10 +14,19 @@ export class QuotesComponent implements OnInit {
     new Quotes("Green", "Green",0,0),
     new Quotes("Yellow", "Yellow",0,0)
 
-  ]
+  ];
   toggleDeets(index){
     this.quotes[index].showDetails=!this.quotes[index].showDetails;
   }
+  deleteQuote(isNotWanted,index){
+    if (isNotWanted){
+        let toDelete=confirm(`Are you sure you want to delete ${this.quotes[index].quote}`)
+        
+        if(toDelete){
+            this.quotes.splice(index,1)
+        }
+    }
+}
 
   constructor() { }
 
@@ -25,3 +34,4 @@ export class QuotesComponent implements OnInit {
   }
 
 }
+

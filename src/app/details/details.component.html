@@ -17,5 +17,7 @@
 </ul>
 </div> -->
 <p>{{quote.author}}</p>
-<p>{{quote.upvotes}}</p>
+<p appUpvote>{{quote.upvotes}}</p>
 <p>{{quote.downvotes}}</p>
+<button (click) = 'deleteQuote(true)'> Delete Quote </button>
+

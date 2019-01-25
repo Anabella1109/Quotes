@@ -3,12 +3,15 @@
   <!-- <h2>Quote</h2> -->
   <div *ngFor='let quote of quotes;let i =index'>
     <li>{{quote.quote}}</li>
+
     <button (click)='toggleDeets(i)'>Show/Hide details</button>
-     <app-details *ngIf="quote.showDetails" [quote]='quote'></app-details>
+    <div *ngIf="quote.showDetails">
+      <app-details  [quote]='quote' (isNotWanted)= 'deleteQuote($event,i)'></app-details>
   </div>
+</div>
   </ul>
   
-  <app-details></app-details>
+  <!-- <app-details></app-details> -->
 
 
 </div>
