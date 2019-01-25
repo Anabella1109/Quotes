@@ -1,19 +1,24 @@
-<div class="quotee">
-  <ul>
+<div class="row">
+  <div class="col md 6">
+  <ol>
   <!-- <h2>Quote</h2> -->
   <div *ngFor='let quote of quotes;let i =index'>
-    <li>{{quote.quote}}</li>
+    <li>"{{quote.quote}}"</li>
 
-    <button (click)='toggleDeets(i)'>Show/Hide details</button>
+    <button class="btn" (click)='toggleDeets(i)'>Show/Hide details</button>
     <div *ngIf="quote.showDetails">
       <app-details  [quote]='quote' (isNotWanted)= 'deleteQuote($event,i)'></app-details>
   </div>
 </div>
-  </ul>
+  </ol>
+</div>
+<div class="col md 6">
+
   <div class="container">
     <div class="row">
         <app-user-form (addQuote)="addNewQuote($event)"></app-user-form>
     </div>
+</div>
 </div>
   <!-- <app-details></app-details> -->
 
