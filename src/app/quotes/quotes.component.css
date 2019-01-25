@@ -9,7 +9,10 @@ button{
   background-color: rgb(10, 10, 58);
   color:white;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 15px;
+  font-size: 10px;
+}
+button:hover{
+  color:red;
 }
 
 /* .quotee{
