@@ -1,3 +1,30 @@
-<p>
-  quotes works!
-</p>
+<div class="quotee">
+  <ul>
+  <h2>Quote</h2>
+  <div *ngFor='let quote of quotes;let i = index'>
+    <li >{{quote.quote}}</li>
+  
+  </div>
+  </ul>
+  
+  
+
+<!-- <div  class="ok">
+<h2>Author</h2>
+<ul>
+  <li *ngFor="let quote of quotes;let i = index" >{{quote.author}}</li>
+</ul>
+</div>
+<div  class="ok">
+<h2>Upvotes</h2>
+<ul>
+  <li *ngFor="let quote of quotes;let i = index">{{quote.upvotes}}</li>
+</ul>
+</div>
+<div class="ok">
+  <h2>Downvotes</h2>
+<ul>
+  <li *ngFor="let quote of quotes;let i = index">{{quote.downvotes}}</li>
+</ul>
+</div> -->
+</div>
