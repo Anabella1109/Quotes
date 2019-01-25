@@ -15,6 +15,9 @@ export class QuotesComponent implements OnInit {
     new Quotes("Yellow", "Yellow",0,0),
 
   ]
+  toggleDeets(index){
+    this.quotes[index].showDetails=!this.quotes[index].showDetails;
+  }
 
   constructor() { }
 
