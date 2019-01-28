@@ -3,8 +3,8 @@ li{
   font-style:italic;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 25px;
-  padding-top:10px;
-  padding-bottom:10px;
+  padding:10px;
+  /* padding-bottom:10px; */
 
   /* list-style-type: none; */
 }
@@ -16,6 +16,19 @@ button{
 }
 button:hover{
   color:red;
+}
+#lolo{
+  background-color: rgb(128, 78, 117);
+  border: 2px solid black;
+  width: 550px;
+  color: white;
+
+}
+h2{
+  border: 2px solid black;
+  padding:10px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /* .quotee{
