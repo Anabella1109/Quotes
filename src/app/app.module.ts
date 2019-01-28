@@ -7,7 +7,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuotesComponent } from './quotes/quotes.component';
 import { DetailsComponent } from './details/details.component';
-import { UpvoteDirective } from './upvote.directive';
 import { UserFormComponent } from './user-form/user-form.component';
 
 
@@ -16,7 +15,6 @@ import { UserFormComponent } from './user-form/user-form.component';
     AppComponent,
     QuotesComponent,
     DetailsComponent,
-    UpvoteDirective,
     UserFormComponent,
    
   ],

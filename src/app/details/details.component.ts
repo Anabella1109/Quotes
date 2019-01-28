@@ -15,6 +15,12 @@ export class DetailsComponent implements OnInit {
   deleteQuote(NotWanted:boolean){
     this.isNotWanted.emit(NotWanted);
   }
+  // upVote(index:number){
+  //   let newIndex=index-1;
+  //   this.quote.upvotes+=1;
+  //   index=newIndex;
+    
+  // }
 
 
   constructor() { }

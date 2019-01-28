@@ -9,12 +9,12 @@ import { Quotes } from '../quotes';
   styleUrls: ['./user-form.component.css']
 })
 export class UserFormComponent implements OnInit {
-  newQuote=new Quotes("","",0,"")
+  newQuote=new Quotes("","",0,0,"")
   @Output() addQuote=new EventEmitter<Quotes>();
 
   submitQuote(){
     this.addQuote.emit(this.newQuote);
-    this.newQuote=new Quotes("","",0,"")
+    this.newQuote=new Quotes("","",0,0,"")
   }
 
   constructor() { }
