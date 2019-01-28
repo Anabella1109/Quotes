@@ -9,6 +9,7 @@ import { QuotesComponent } from './quotes/quotes.component';
 import { DetailsComponent } from './details/details.component';
 import { UserFormComponent } from './user-form/user-form.component';
 import { TimeCountPipe } from './time-count.pipe';
+import { HighlightDirective } from './highlight.directive';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { TimeCountPipe } from './time-count.pipe';
     DetailsComponent,
     UserFormComponent,
     TimeCountPipe,
+    HighlightDirective,
    
   ],
   imports: [
