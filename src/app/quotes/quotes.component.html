@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col md 6">
-  <ol>
+  <ul>
    <h2>Quotes</h2>
   <div *ngFor='let quote of quotes;let i =index'>
     <li>"{{quote.quote}}"</li>
@@ -14,7 +14,7 @@
       <app-details  [quote]='quote' (isNotWanted)= 'deleteQuote($event,i)'></app-details>
   </div>
 </div>
-  </ol>
+  </ul>
 </div>
 <div class="col md 6">
 

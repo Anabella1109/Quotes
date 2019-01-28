@@ -2,7 +2,11 @@
 li{
   font-style:italic;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 30px;
+  font-size: 25px;
+  padding-top:10px;
+  padding-bottom:10px;
+
+  /* list-style-type: none; */
 }
 button{
   background-color: rgb(10, 10, 58);

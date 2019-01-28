@@ -9,11 +9,11 @@ import { Quotes } from '../quotes';
 export class QuotesComponent implements OnInit {
   
   quotes=[
-    new Quotes("Blue", "Blue",0,0,"Meh",new Date(2018,11,13)),
-    new Quotes("Red", "Red",0,0,"0",new Date(2018,11,13)),
-    new Quotes("Orange", "Orange",0,0,"0",new Date(2018,11,13)),
-    new Quotes("Green", "Green",0,0,"0",new Date(2018,11,13)),
-    new Quotes("Yellow", "Yellow",0,0,"0",new Date(2018,11,13))
+    new Quotes("Don't cry because it's over, smile because it happened.", "Dr. Seus",0,0,"Anny Bella",new Date(2018,11,13)),
+    new Quotes("Be yourself; everyone else is already takens", "Oscar Wilde",0,0,"D~babes",new Date(2018,11,13)),
+    new Quotes("So many books, so little time.", "Frank Zappa",0,0,"Sallo Sal",new Date(2018,11,13)),
+    new Quotes("A room without books is like a body without a soul.", " Marcus Tullius Cicero",0,0,"Anny Bella",new Date(2018,11,13)),
+    new Quotes("You only live once, but if you do it right, once is enough.", "Mae West",0,0,"Sallo Sal",new Date(2018,11,13))
 
   ];
   toggleDeets(index){
