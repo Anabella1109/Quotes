@@ -44,12 +44,12 @@ upVote(index:number){
   }
   
 }
-// downVote(index:number){
-//   this.quotes[index].downvotes+=1;
-//   let quotee=this.quotes[index];
+downVote(index:number){
+  this.quotes[index].downvotes+=1;
+  let quotee=this.quotes[index];
   
 
-// }
+}
   constructor() { }
 
   ngOnInit() {
