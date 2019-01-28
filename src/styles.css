@@ -27,5 +27,10 @@ h1{
   align-items: center;
   font-family: 'Julius Sans One';
 }
-
+p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  padding: 0px;
+  /* font-style: oblique; */
+}
 
