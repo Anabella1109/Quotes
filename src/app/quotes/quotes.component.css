@@ -1,9 +1,8 @@
-*{
-  background-color: rgb(227, 203, 250);
-}
+
 li{
   font-style:italic;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
 }
 button{
   background-color: rgb(10, 10, 58);
