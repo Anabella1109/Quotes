@@ -9,11 +9,11 @@ import { Quotes } from '../quotes';
 export class QuotesComponent implements OnInit {
   
   quotes=[
-    new Quotes("Blue", "Blue",0,0,"Meh"),
-    new Quotes("Red", "Red",0,0,"0"),
-    new Quotes("Orange", "Orange",0,0,"0"),
-    new Quotes("Green", "Green",0,0,"0"),
-    new Quotes("Yellow", "Yellow",0,0,"0")
+    new Quotes("Blue", "Blue",0,0,"Meh",new Date(2018,11,13)),
+    new Quotes("Red", "Red",0,0,"0",new Date(2018,11,13)),
+    new Quotes("Orange", "Orange",0,0,"0",new Date(2018,11,13)),
+    new Quotes("Green", "Green",0,0,"0",new Date(2018,11,13)),
+    new Quotes("Yellow", "Yellow",0,0,"0",new Date(2018,11,13))
 
   ];
   toggleDeets(index){
@@ -46,7 +46,7 @@ upVote(index:number){
 }
 downVote(index:number){
   this.quotes[index].downvotes+=1;
-  let quotee=this.quotes[index];
+  // let quotee=this.quotes[index];
   
 
 }
