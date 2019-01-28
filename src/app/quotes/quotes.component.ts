@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Output,EventEmitter} from '@angular/core';
 import { Quotes } from '../quotes';
 
 @Component({
@@ -16,6 +16,9 @@ export class QuotesComponent implements OnInit {
     new Quotes("You only live once, but if you do it right, once is enough.", "Mae West",0,0,"Sallo Sal",new Date(2018,11,13))
 
   ];
+  @Output() isHighest= new EventEmitter<boolean>();
+    
+  
   toggleDeets(index){
     this.quotes[index].showDetails=!this.quotes[index].showDetails;
   }

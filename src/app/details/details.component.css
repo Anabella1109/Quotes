@@ -7,3 +7,7 @@ button{
   font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
 }
+.paras{
+  border: 2px solid black;
+  padding: 2px;
+}

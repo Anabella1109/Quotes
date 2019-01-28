@@ -16,10 +16,11 @@
   <li *ngFor="let quote of quotes;let i = index">{{quote.downvotes}}</li>
 </ul>
 </div> -->
+<div class="paras">
 <div class="row">
   <div class="col md 6">
 <p>Author: ~ {{quote.author}}</p>
-<p appHighlight>Added by: {{quote.userNames}}</p>
+<p>Added by: {{quote.userNames}}</p>
 
 </div>
 <div class="col md 6">
@@ -37,7 +38,7 @@
 <p>Been on Citar for {{quote.uploadDate|timeCount}} days</p>
 </div>
 </div>
-
+</div>
     
 <button (click) = 'deleteQuote(true)'> Delete Quote </button>
 
