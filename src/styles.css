@@ -15,9 +15,9 @@ h1{
 
 }
 .footer {
-  position: fixed; 
-  color: white;
-  background-color: black;
+ position:fixed ;
+  color:black;
+  /* background-color: black; */
   right: 0;
   left: 0;
   bottom: 0;
@@ -26,11 +26,20 @@ h1{
   justify-content: center;
   align-items: center;
   font-family: 'Julius Sans One';
+  height:45px;
+}
+.footer-content {
+  /* padding-top: 1%; */
+  padding-bottom: 1%;
+  text-align: center;
 }
 p{
   font-family: 'Courier New', Courier, monospace;
   font-size: 15px;
   padding: 0px;
   /* font-style: oblique; */
+}
+.list-inline a {
+  color:black;
 }
 
