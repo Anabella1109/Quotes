@@ -6,12 +6,12 @@ import { Directive,ElementRef,HostListener } from '@angular/core';
 export class HighlightDirective {
 
   constructor(private el:ElementRef) {}
-   @HostListener('mouseenter') upVote() {
-    this.highlight('yellow');
+   @HostListener('mouseenter') onmouseenter() {
+    this.highlight(' rgb(226, 207, 245)');
   }
   
   @HostListener('mouseleave') onMouseLeave() {
-    this.highlight('red');
+    this.highlight(null);
   }
   
   private highlight(color: string){

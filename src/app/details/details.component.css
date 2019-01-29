@@ -10,4 +10,6 @@ button{
 .paras{
   border: 2px solid black;
   padding: 2px;
+  padding-left:10px; 
+  background-color: rgb(226, 207, 245);
 }

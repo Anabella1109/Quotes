@@ -3,7 +3,7 @@
   <ul>
    <h2>Quotes</h2>
   <div *ngFor='let quote of quotes;let i =index'>
-    <li>"{{quote.quote}}"</li>
+    <li appHighlight>"{{quote.quote}}"</li>
 
     <button class="btn" (click)='toggleDeets(i)'>Show/Hide details</button>
     <button (click)='upVote(i)'>Upvote</button>

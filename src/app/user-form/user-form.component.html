@@ -5,7 +5,7 @@
         <h2>Fill in this form to add quote</h2>
           
           <div class="form-group">
-              <label for="name">User Name</label>
+              <label for="name" >User Name</label>
               <input type="text"  class="form-control" id="username" [(ngModel)]="newQuote.userNames" name="userName" #userName="ngModel" required>
               
               <!-- <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
@@ -37,7 +37,7 @@
          
            <div class="form-group">
               <label for="dateOfUpdate">Date of upload</label>
-              <input type='date' id="upload" [(ngModel)]="newQuote.uploadDate" name="uploadDate" #completeDate="ngModel" required >
+              <input type='date' id="upload" [(ngModel)]="newQuote.uploadDate" name="uploadDate" #completeDate="ngModel" required>
               <!-- <div [hidden]="completeDate.valid || completeDate.pristine" class="alert alert-danger">
                   <p> Complete Date is Required</p> -->
                   
