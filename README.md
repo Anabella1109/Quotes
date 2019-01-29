@@ -1,5 +1,5 @@
 # Citar
-#### This is a website where people can express their ideas through quotes
+#### This is a website where people can express their ideas through quotes, Current version :29 January 2019
 #### By **TUYISENGE Anabella**
 ## Description
 On citar anyone can add quotes.The user has to fill a form with their names,the quote they want to add and the author and the click on "Add quote" button to add a quote.
