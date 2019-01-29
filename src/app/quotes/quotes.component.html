@@ -6,8 +6,8 @@
     <li appHighlight>"{{quote.quote}}"</li>
 
     <button class="btn" (click)='toggleDeets(i)'>Show/Hide details</button>
-    <button (click)='upVote(i)'>Upvote</button>
-    <button (click)='downVote(i)'>Downvote</button>
+    <button (click)='upVote(i)'><i class="fa fa-thumbs-up"></i></button>
+    <button (click)='downVote(i)'><i class="fa fa-thumbs-down"></i></button>
 
     
     <div *ngIf="quote.showDetails">
