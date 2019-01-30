@@ -1,4 +1,4 @@
-# Citar
+# Quotes
 #### This is a website where people can express their ideas through quotes, Current version :29 January 2019
 #### By **TUYISENGE Anabella**
 ## Description
