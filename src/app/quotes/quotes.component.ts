@@ -43,7 +43,7 @@ addNewQuote(quote){
 public higher=this.quotes.map((quote)=>{
   return quote.upvotes;
 })
-public big=Math.max(...this.higher)
+// public big=Math.max(...this.higher)
 upVote(index:number){
   this.quotes[index].upvotes+=1;
   let quotee=this.quotes[index];
