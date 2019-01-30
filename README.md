@@ -9,7 +9,7 @@ A user can upvote or downvote a quote
 * Connect to the internet
 * Open your browser
 * In your browser adress bar type the following
-* http://Anabella1109.github.io/Citar
+* http://Anabella1109.github.io/Quotes
 * And there you have it
 
 
